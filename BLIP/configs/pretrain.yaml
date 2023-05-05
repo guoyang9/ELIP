@@ -1,0 +1,36 @@
+train_file: [
+  '/temp/vl-dataset/json_pretrain/coco.json',
+  '/temp/vl-dataset/json_pretrain/vg.json',
+  # '/temp/vl-dataset/json_pretrain/cc12m.json',
+  '/temp/vl-dataset/json_pretrain/cc3m_train.json',
+  '/temp/vl-dataset/json_pretrain/cc3m_val.json',
+  '/temp/vl-dataset/json_pretrain/sbu.json'
+             ]
+laion_path: ''
+
+# size of vit model; base or large
+vit: 'base'
+vit_grad_ckpt: False
+vit_ckpt_layer: 0
+
+image_size: 224
+batch_size: 42 # 56
+
+queue_size: 57600
+alpha: 0.4
+
+# optimizer
+weight_decay: 0.05
+init_lr: 1e-4 # 3e-4
+min_lr: 1e-6
+warmup_lr: 1e-6
+lr_decay_rate: 0.9
+max_epoch: 15
+warmup_steps: 3000
+
+# (begin layer id, num of used layers, keep ratio)
+img_prune: {
+  begin_layer: [2, 4, 10],
+  num_act_layers: [2, 6, 2],
+  keep_ratio: [0.90, 0.65, 0.40]
+  }
