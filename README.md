@@ -1,6 +1,6 @@
 # ELIP: Efficient Language-Image Pre-training with Fewer Vision Tokens
 
-[[paper](https://arxiv.org/abs/2309.16738)] on arXiv
+[![arxiv](https://img.shields.io/badge/paper-Arxiv-blue.svg)](https://arxiv.org/abs/2309.16738)
 
 #### Code contribution: Yangyang Guo 60% and Haoyu Zhang 40%.
 
