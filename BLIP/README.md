@@ -1,7 +1,7 @@
 ## ELIP: Efficient Language-Image Pre-training with Fewer Vision Tokens
 
 We build our model based upon the original [BLIP](https://github.com/salesforce/BLIP) repo.
-We sincerely appreciate the Junnan' generous sharing and great contribution!
+We sincerely appreciate Junnan's generous sharing and great contribution!
 
 #### Most of the settings follow BLIP except for the decreased batch-size due to resource constraints.
 We found that due to the batch reduction, some downstrem tasks do not work normally (The model performance drops with more pre-training steps).

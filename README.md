@@ -4,7 +4,7 @@
 
 #### Code contribution: Yangyang Guo 60% and Haoyu Zhang 40%.
 
-#### Detailed configuration of each model can be found on each model directory.
+#### Detailed configuration of each model (ALBEF/BLIP/METER/CLIP) can be found on each model directory.
 
 ### Pre-trained Checkpoints 
 If you have a Baidu Drive account, check this <a href="https://pan.baidu.com/s/1C6OP7mJ0nnXQdR1cat22Rw?pwd=rg19">link</a>.

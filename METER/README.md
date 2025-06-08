@@ -1,5 +1,7 @@
 # ELIP: Efficient Language-Image Pre-training with Fewer Vision Tokens
 
+We implement ELIP on the [METER](https://github.com/zdou0830/METER) model.
+
 ## Install
 
 ```bash
